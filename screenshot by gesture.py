@@ -69,6 +69,7 @@ while True:
         if ((acount == 5) and (bcount == 0) and (ccount == 5)) or ((acount == 5) and (bcount == 1) and (ccount == 0)):
             myScreenshot = pyautogui.screenshot()
             myScreenshot.save(r'C:\Users\techn\Downloads\py-ss'+f'{int(scon)}'+r'.png')
+            #YOU MUST CHANGE THE PATH AND MUST REPLAE "C:\Users\techn\Downloads\py-ss" AVOBE PART
             print('Screenshot captured')
             # Successfully running the code sounds
             chime.success()
